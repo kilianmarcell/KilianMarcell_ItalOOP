@@ -23,28 +23,28 @@ public class Bor {
     }
 
     /**
-     * @return Bor nevét Visszaadja
+     * @return Bor nevét visszaadja
      */
     public String getFajta() {
         return fajta;
     }
 
     /**
-     * @return Bor évjáratát Visszaadja
+     * @return Bor évjáratát visszaadja
      */
     public int getEvjarat() {
         return evjarat;
     }
 
     /**
-     * @param fajta Bor nevét beállítja
+     * @param fajta Bor nevét beállítja/átállítja
      */
     public void setFajta(String fajta) {
         this.fajta = fajta;
     }
 
     /**
-     * @param evjarat Bor évjáratát beállítja
+     * @param evjarat Bor évjáratát beállítja/átállítja
      */
     public void setEvjarat(int evjarat) {
         this.evjarat = evjarat;

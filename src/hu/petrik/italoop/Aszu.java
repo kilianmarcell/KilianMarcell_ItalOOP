@@ -10,22 +10,31 @@ public class Aszu extends Bor {
     private int puttony;
 
     /**
-     * @param evjarat
-     * @param puttony
+     * @param evjarat Aszu pédány évjáratának beállítása
+     * @param puttony Aszu pédány puttony számának beállítása
      */
     public Aszu(int evjarat, int puttony) {
         super("aszu", evjarat);
         this.puttony = puttony;
     }
 
+    /**
+     * @return Puttony értékét visszaadja
+     */
     public int getPuttony() {
         return puttony;
     }
 
+    /**
+     * @param puttony Puttony értékét beállítja/átállítja
+     */
     public void setPuttony(int puttony) {
         this.puttony = puttony;
     }
 
+    /**
+     * @return Aszu kiírásánál a kinézet beállítása
+     */
     @Override
     public String toString() {
         return String.format(super.toString() + puttony + " puttonyos\n");
